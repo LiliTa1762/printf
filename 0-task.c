@@ -9,25 +9,33 @@ int _printf(const char *format, ...)
 	va_list ax;
 	int i, contador = 0;
 
+	if (format == NULL)
+		return (-1);
+
 	va_start(ax, format);
 
 	for (i = 0; format[i] != '\0'; i++)
 	{
+
 		if (format[i] == '%')
 		{
-			contador += match(format[i + 1], ax);
-			i += 1;
+			if (format[i + 1] == '\0')
+			{
+				va_end(ax);
+				return (-1);
+			}
+			contador += match(format[i + 1], ax), i += 1;
 		}
 		else
-		{
 			contador += _putchar(format[i]);
-		}
+
 	}
 
 	va_end(ax);
 
 	return (contador);
 }
+
 /**
  *match - function to match characters
  *@format: variable char type
