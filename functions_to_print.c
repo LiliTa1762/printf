@@ -1,4 +1,3 @@
-#include <unistd.h>
 #include "holberton.h"
 /**
  *_putchar - function to print characters
