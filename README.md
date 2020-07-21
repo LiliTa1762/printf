@@ -26,7 +26,7 @@ We have different kinds of variables available to be used in this function.
 ## To print an integer
 ## Integer: %i
 - Input: _printf("My birthday is on January %i\n", 13);
-- Output: My birthday is on January 13
+- Output: My birthday is on January 13 :gift:
 
 
 ## To print a decimal
@@ -34,7 +34,11 @@ We have different kinds of variables available to be used in this function.
 - Input: _printf("The value of pi is %d\n", 3.1416);
 - Output: The value of pi is 3.1416
 
+## Project flowchart :notebook:
 
-## Authors
+![flowchart](https://app.diagrams.net/#G1FHzWAuddrfA0oG3JQRAQK64rC_QNyRs0)
+<img src="https://app.diagrams.net/#G1FHzWAuddrfA0oG3JQRAQK64rC_QNyRs0"></img>
+
+## Authors :loudspeaker:
 - Silena Restrepo (https://twitter.com/silenarestrepo_) 
 - Lilibeth Tabares (https://twitter.com/LilibethTabares)
