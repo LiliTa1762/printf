@@ -31,7 +31,7 @@ int _printf(const char *format, ...)
 .SH RETURN VALUE
 On success, printf returns the number of every character printed.
 .br
-In case of format being NULL or the function finding any error, printf would return -1.
+In case of format being NULL or the function finds any error, printf would return -1.
 
 .SH BUGS
 No known bugs.
