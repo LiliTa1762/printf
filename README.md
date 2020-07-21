@@ -16,20 +16,24 @@ We have different kinds of variables available to be used in this function.
 - Input: _printf("The %c is the first letter in the alphabet\n", 'a');
 - Output: The a is the first letter in the alphabet
 
+
 ## To print a string
 ## String: %s
 - Input: _printf("My name is not %s\n", "Betty");
 - Output: My name is not Betty
+
 
 ## To print an integer
 ## Integer: %i
 - Input: _printf("My birthday is on January %i\n", 13);
 - Output: My birthday is on January 13
 
+
 ## To print a decimal
 ## Decimal: %d
 - Input: _printf("The value of pi is %d\n", 3.1416);
 - Output: The value of pi is 3.1416
+
 
 ## Authors
 - Silena Restrepo (https://twitter.com/silenarestrepo_) [Twitter]
