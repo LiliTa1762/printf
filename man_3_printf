@@ -7,7 +7,7 @@ _printf - formats and prints strings, characters or numbers to the standard outp
 .SS SYNTAX
 .B #include "holberton.h"
 .br
-_printf("%type_of_variable, variable);
+_printf("%type_of_variable", variable);
 .br
 .SS PROTOTYPE
 .br
@@ -20,7 +20,8 @@ int _printf(const char *format, ...)
 .br
 .SS FORMAT SPECIFIERS
 .B %c -  prints a single character
-.br %s - prints an array of characters without the terminating null byte
+.br
+.B %s - prints an array of characters without the terminating null byte
 .br
 .B %d - prints an integer base 10
 .br
@@ -43,7 +44,7 @@ Print a string:
 .br
 char *string = "World";
 .br
-_printf("Hello, %s, string);
+_printf("Hello, %s", string);
 .br
 return (0);
 .br
