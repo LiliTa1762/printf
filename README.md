@@ -36,5 +36,5 @@ We have different kinds of variables available to be used in this function.
 
 
 ## Authors
-- Silena Restrepo (https://twitter.com/silenarestrepo_) [Twitter]
-- Lilibeth Tabares (https://twitter.com/LilibethTabares) [Twitter]
+- Silena Restrepo (https://twitter.com/silenarestrepo_) 
+- Lilibeth Tabares (https://twitter.com/LilibethTabares)
