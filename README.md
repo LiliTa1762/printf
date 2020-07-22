@@ -1,8 +1,3 @@
-**Table of Contents**
-
-[TOCM]
-
-[TOC]
 
 # _printf
 This project is meant to recreate the printf function with the knowledge we've gotten so far during the whole process of learning C programming language in __Holberton School__.
